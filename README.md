@@ -10,6 +10,6 @@ This directory represents the root of the Sonic Generations installation directo
 This represents the mods folder of a user's SonicGMI setup. Multiple entire mod folders are placed inside here. To make use of the handling of unpacked archives, they must be unpacked and their resulting folders' names' appended with ".ar" to indicate they represent archives. The original packed archive files must also be deleted to ensure no clashes occur upon building. Any other files including packed archives are supported: they will be simply copied over upon building. It is recommended to leave terrain archived packed due to the differences in how the archive contents of the Packed folders are intended to be split.
 
 ### Building
-Simply run the build.bat file in the top directory. If a build folder already exists you will be prompted to delete it before doing so.
+Simply run the build.bat file in the top directory. If a build folder already exists you will be prompted to delete it before doing so. SonicGMI/cpkredir can be pointed directly to the build/mods/modDB.ini for quick loading of mods after building (any additional mods to run alongside can be included in the modfolders directory to prevent deletion following a build).
 
 ar0pack provided by Skyth
